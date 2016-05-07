@@ -11,6 +11,7 @@ body {
 	background-color: $gray;
 	color: $blue;
 	font-family: "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background-repeat: no-repeat;
 }
 a{
 	@include hover-link;
@@ -124,7 +125,9 @@ h5{
 		float: right;
 		&:first-child{
 			width: auto;
-			padding: 25px 5px;
+			height: 50px;
+			/* padding: 25px 5px; */
+			margin: 25px 0px 0px 5px;
 			float: left;
 			transition: 0.5s;
 			&:hover{
@@ -310,31 +313,23 @@ td{
 		float: left;
 		width: 169px;
 		height: 232px;
-		/* background-image: url(#{$imgPATH}portfolioWeb2_03.png); */
-		/* background-size: auto 232px; */
 	}
 	& > .imgset2{
 		float: right;
 		width: 313px;
 		height: 232px;
-		/* background-image: url(#{$imgPATH}portfolioWeb2_05.png); */
-		/* background-size: auto 232px; */
 	}
 	& > .imgset3{
 		margin-top: 6px;
 		float: left;
 		width: 276px;
 		height: 206px;
-		/* background-image: url(#{$imgPATH}portfolioWeb2_09.png); */
-		/* background-size: auto 206px; */
 	}
 	& > .imgset4{
 		margin-top: 6px;
 		float: right;
 		width: 206px;
 		height: 206px;
-		/* background-image: url(#{$imgPATH}portfolioWeb2_11.png); */
-		/* background-size: auto 206px; */
 	}
 }
 
@@ -351,23 +346,18 @@ td{
 		& > .imgset1{
 			width: 392px;
 			height: 306px;
-			/* background-image: url(#{$imgPATH}softphoto1.png); */
 		}
 		& > .imgset2{
 			float: left;
 			margin-top: 6px;
 			width: 178px;
 			height: 316px;
-			/* background-image: url(#{$imgPATH}softphoto2.png); */
-			/* background-size: auto 316px; */
 		}
 		& > .imgset3{
 			float: right;
 			margin-top: 6px;
 			width: 209px;
 			height: 316px;
-			/* background-image: url(#{$imgPATH}softphoto3.png); */
-			/* background-size: auto 316px; */
 		}
 	}
 }
@@ -380,8 +370,6 @@ td{
 		& > .imgset1{
 			width: 331px;
 			height: 336px;
-			/* background-image: url(#{$imgPATH}houny.png); */
-			/* background-size: auto 336px; */
 		}
 	}
 }
@@ -396,40 +384,30 @@ td{
 			margin: 6px 0px 0px 0px;
 			width: 465px;
 			height: 290px;
-			/* background-image: url(#{$imgPATH}crashphoto1.png); */
-			/* background-size: auto 290px; */
 		}
 		& > .imgset2{
 			margin: 6px 0px 0px 0px;
 			float: left;
 			width: 226px;
 			height: 145px;
-			/* background-image: url(#{$imgPATH}crashphoto2.png); */
-			/* background-size: 226px auto; */
 		}
 		& > .imgset3{
 			margin: 6px 0px 0px 0px;
 			float: right;
 			width: 226px;
 			height: 145px;
-			/* background-image: url(#{$imgPATH}crashphoto3.png); */
-			/* background-size: 226px auto; */
 		}
 		& > .imgset4{
 			float: left;
 			margin: 6px 0px 0px 0px;
 			width: 226px;
 			height: 145px;
-			/* background-image: url(#{$imgPATH}crashphoto4.png); */
-			/* background-size: 226px auto; */
 		}
 		& > .imgset5{
 			margin: 6px 0px 0px 0px;
 			float: right;
 			width: 226px;
 			height: 145px;
-			/* background-image: url(#{$imgPATH}crashphoto5.png); */
-			/* background-size: 226px auto; */
 		}
 	}
 }
@@ -443,40 +421,30 @@ td{
 			margin: 6px 0px 0px 0px;
 			width: 465px;
 			height: 290px;
-			/* background-image: url(#{$imgPATH}sengophoto1.png); */
-			/* background-size: auto 290px; */
 		}
 		& > .imgset2{
 			margin: 6px 0px 0px 0px;
 			float: left;
 			width: 226px;
 			height: 145px;
-			/* background-image: url(#{$imgPATH}sengophoto2.png); */
-			/* background-size: 226px auto; */
 		}
 		& > .imgset3{
 			margin: 6px 0px 0px 0px;
 			float: right;
 			width: 226px;
 			height: 145px;
-			/* background-image: url(#{$imgPATH}sengophoto3.png); */
-			/* background-size: 226px auto; */
 		}
 		& > .imgset4{
 			float: left;
 			margin: 6px 0px 0px 0px;
 			width: 226px;
 			height: 145px;
-			/* background-image: url(#{$imgPATH}sengophoto4.png); */
-			/* background-size: 226px auto; */
 		}
 		& > .imgset5{
 			margin: 6px 0px 0px 0px;
 			float: right;
 			width: 226px;
 			height: 145px;
-			/* background-image: url(#{$imgPATH}sengophoto5.png); */
-			/* background-size: 226px auto; */
 		}
 	}
 }
@@ -491,32 +459,24 @@ td{
 		& > .imgset1{
 			width: 519px;
 			height: 264px;
-			/* background-image: url(#{$imgPATH}kaleidophoto1.png); */
-			/* background-size: 519px auto; */
 		}
 		& > .imgset2{
 			float: left;
 			margin: 6px 0px 0px 0px;
 			width: 254px;
 			height: 227px;
-			/* background-image: url(#{$imgPATH}kaleidophoto2.png); */
-			/* background-size: 254px auto; */
 		}
 		& > .imgset3{
 			float: right;
 			margin: 6px 0px 0px 0px;
 			width: 259px;
 			height: 103px;
-			/* background-image: url(#{$imgPATH}kaleidophoto3.png); */
-			/* background-size: 259px auto; */
 		}
 		& > .imgset4{
 			float: right;
 			margin: 5px 0px 0px 0px;
 			width: 259px;
 			height: 118px;
-			/* background-image: url(#{$imgPATH}kaleidophoto4.png); */
-			/* background-size: 259px auto; */
 		}
 	}
 }
@@ -531,39 +491,29 @@ td{
 			float: left;
 			width: 200px;
 			height: 629px;
-			/* background-image: url(#{$imgPATH}toylephoto1.png); */
-			/* background-size: 200px auto; */
 		}
 		& > .imgset2{
 			float: right;
 			width: 297px;
 			height: 225px;
-			/* background-image: url(#{$imgPATH}toylephoto2.png); */
-			/* background-size: 297px auto; */
 		}
 		& > .imgset3{
 			margin: 5px 0px 0px 0px;
 			float: right;
 			width: 146px;
 			height: 146px;
-			/* background-image: url(#{$imgPATH}toylephoto3.png); */
-			/* background-size: 146px auto; */
 		}
 		& > .imgset4{
 			margin: 5px 5px 0px 0px;
 			float: right;
 			width: 146px;
 			height: 146px;
-			/* background-image: url(#{$imgPATH}toylephoto4.png); */
-			/* background-size: 146px auto; */
 		}
 		& > .imgset5{
 			margin: 5px 0px 0px 0px;
 			float: right;
 			width: 297px;
 			height: 247px;
-			/* background-image: url(#{$imgPATH}toylephoto5.png); */
-			/* background-size: 297px auto; */
 		}
 	}
 }
@@ -579,31 +529,23 @@ td{
 			float: left;
 			width: 232px;
 			height: 232px;
-			/* background-image: url(#{$imgPATH}choujyu1.png); */
-			/* background-size: 232px auto; */
 		}
 		& > .imgset2{
 			float: right;
 			width: 232px;
 			height: 232px;
-			/* background-image: url(#{$imgPATH}choujyu2.png); */
-			/* background-size: 232px auto; */
 		}
 		& > .imgset3{
 			margin: 5px 0px 0px 0px;
 			float: left;
 			width: 232px;
 			height: 232px;
-			/* background-image: url(#{$imgPATH}choujyu3.png); */
-			/* background-size: 232px auto; */
 		}
 		& > .imgset4{
 			margin: 5px 0px 0px 0px;
 			float: right;
 			width: 232px;
 			height: 232px;
-			/* background-image: url(#{$imgPATH}choujyu4.png); */
-			/* background-size: 232px auto; */
 		}
 	}
 }
@@ -617,8 +559,6 @@ td{
 		& > .imgset1{
 			width: 398px;
 			height: 557px;
-			/* background-image: url(#{$imgPATH}flier1.png); */
-			/* background-size: 398px auto; */
 		}
 	}
 }
@@ -632,8 +572,6 @@ td{
 		& > .imgset1{
 			width: 398px;
 			height: 557px;
-			/* background-image: url(#{$imgPATH}nennga1.png); */
-			/* background-size: 398px auto; */
 		}
 	}
 }

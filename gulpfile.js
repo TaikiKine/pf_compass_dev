@@ -32,7 +32,7 @@ gulp.task('watch', function(){
     gulp.watch('sass/**/*.scss', function(event) {
         gulp.run('compass');
     });
-    gulp.watch('stylesheets/**/*.css', function(event) {
+    gulp.watch('css/**/*.css', function(event) {
         gulp.run('cssmin');
     });
 });

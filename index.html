@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="cssmin/sanitize.min.css" type="text/css" media="all"/>
   <link rel="stylesheet" href="cssmin/style.min.css" type="text/css" media="all"/>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" charset="utf-8" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" charset="utf-8" type="text/javascript"></script>
+  <script src="js/jquery.lazyload.min.js"></script>
   <script src="js/smartRollover.js" charset="utf-8" type="text/javascript"></script>
   <script src="js/mysmoothsc.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/navibar.js" charset="utf-8" type="text/javascript"></script>
-  <script src="js/mymovetop.js" charset="utf-8" type="text/javascript"></script>
+  <script src="js/myscript.js" charset="utf-8" type="text/javascript"></script>
   <title>Taiki's Portfolio</title>
 </head>
 <body>
@@ -110,11 +111,11 @@
       <div id="crsh">
         <div class="left">
           <div id="crsh_imgwrap">
-            <img src="images/crashphoto1.png" alt="button" class="imgset1">
-            <img src="images/crashphoto2.png" alt="button" class="imgset2">
-            <img src="images/crashphoto3.png" alt="button" class="imgset3">
-            <img src="images/crashphoto4.png" alt="button" class="imgset4">
-            <img src="images/crashphoto5.png" alt="button" class="imgset5">
+            <img class="lazy imgset1" data-original="images/crashphoto1.png" alt="button">
+            <img class="lazy imgset2" data-original="images/crashphoto2.png" alt="button">
+            <img class="lazy imgset3" data-original="images/crashphoto3.png" alt="button">
+            <img class="lazy imgset4" data-original="images/crashphoto4.png" alt="button">
+            <img class="lazy imgset5" data-original="images/crashphoto5.png" alt="button">
           </div>
         </div>
         <div class="right">
@@ -128,11 +129,11 @@
       <div id="sngo">
         <div class="left">
           <div id="sngo_imgwrap">
-            <img src="images/sengophoto1.png" alt="button" class="imgset1">
-            <img src="images/sengophoto2.png" alt="button" class="imgset2">
-            <img src="images/sengophoto3.png" alt="button" class="imgset3">
-            <img src="images/sengophoto4.png" alt="button" class="imgset4">
-            <img src="images/sengophoto5.png" alt="button" class="imgset5">
+            <img class="lazy imgset1" data-original="images/sengophoto1.png" alt="button">
+            <img class="lazy imgset2" data-original="images/sengophoto2.png" alt="button">
+            <img class="lazy imgset3" data-original="images/sengophoto3.png" alt="button">
+            <img class="lazy imgset4" data-original="images/sengophoto4.png" alt="button">
+            <img class="lazy imgset5" data-original="images/sengophoto5.png" alt="button">
           </div>
         </div>
         <div class="right">
@@ -149,9 +150,9 @@
       <div id="trcd">
         <div class="left">
           <div id="trcd_imgwrap">
-            <img src="images/softphoto1.png" alt="button" class="imgset1">
-            <img src="images/softphoto2.png" alt="button" class="imgset2">
-            <img src="images/softphoto3.png" alt="button" class="imgset3">
+            <img class="lazy imgset1" data-original="images/softphoto1.png" alt="button">
+            <img class="lazy imgset2" data-original="images/softphoto2.png" alt="button">
+            <img class="lazy imgset3" data-original="images/softphoto3.png" alt="button">
           </div>
         </div>
         <div class="right">
@@ -164,7 +165,7 @@
       <div id="hony">
         <div class="left">
           <div id="hony_imgwrap">
-            <img src="images/houny.png" alt="button" class="imgset1">
+            <img class="lazy imgset1" data-original="images/houny.png" alt="button">
           </div>
         </div>
         <div class="right">
@@ -181,10 +182,10 @@
       <div id="klid">
         <div class="left">
           <div id="klid_imgwrap">
-            <img src="images/kaleidophoto1.png" alt="button" class="imgset1">
-            <img src="images/kaleidophoto2.png" alt="button" class="imgset2">
-            <img src="images/kaleidophoto3.png" alt="button" class="imgset3">
-            <img src="images/kaleidophoto4.png" alt="button" class="imgset4">
+            <img class="lazy imgset1" data-original="images/kaleidophoto1.png" alt="button">
+            <img class="lazy imgset2" data-original="images/kaleidophoto2.png" alt="button">
+            <img class="lazy imgset3" data-original="images/kaleidophoto3.png" alt="button">
+            <img class="lazy imgset4" data-original="images/kaleidophoto4.png" alt="button">
           </div>
         </div>
         <div class="right">
@@ -197,11 +198,11 @@
       <div id="tylt">
         <div class="left">
           <div id="tylt_imgwrap">
-            <img src="images/toylephoto1.png" alt="button" class="imgset1">
-            <img src="images/toylephoto2.png" alt="button" class="imgset2">
-            <img src="images/toylephoto3.png" alt="button" class="imgset3">
-            <img src="images/toylephoto4.png" alt="button" class="imgset4">
-            <img src="images/toylephoto5.png" alt="button" class="imgset5">
+            <img class="lazy imgset1" data-original="images/toylephoto1.png" alt="button">
+            <img class="lazy imgset2" data-original="images/toylephoto2.png" alt="button">
+            <img class="lazy imgset3" data-original="images/toylephoto3.png" alt="button">
+            <img class="lazy imgset4" data-original="images/toylephoto4.png" alt="button">
+            <img class="lazy imgset5" data-original="images/toylephoto5.png" alt="button">
           </div>
         </div>
         <div class="right">
@@ -217,10 +218,10 @@
     <div id="installation" class="contents">
       <div class="left">
         <div id="insta_imgwrap">
-          <img src="images/portfolioWeb2_03.png" alt="button" class="imgset1">
-          <img src="images/portfolioWeb2_05.png" alt="button" class="imgset2">
-          <img src="images/portfolioWeb2_09.png" alt="button" class="imgset3">
-          <img src="images/portfolioWeb2_11.png" alt="button" class="imgset4">
+          <img class="lazy imgset1" data-original="images/portfolioWeb2_03.png" alt="button">
+          <img class="lazy imgset2" data-original="images/portfolioWeb2_05.png" alt="button">
+          <img class="lazy imgset3" data-original="images/portfolioWeb2_09.png" alt="button">
+          <img class="lazy imgset4" data-original="images/portfolioWeb2_11.png" alt="button">
         </div>
       </div>
       <div class="right">
@@ -236,10 +237,10 @@
       <div id="cggg">
         <div class="left">
           <div id="cggg_imgwrap">
-            <img src="images/choujyu1.png" alt="button" class="imgset1">
-            <img src="images/choujyu2.png" alt="button" class="imgset2">
-            <img src="images/choujyu3.png" alt="button" class="imgset3">
-            <img src="images/choujyu4.png" alt="button" class="imgset4">
+            <img class="lazy imgset1" data-original="images/choujyu1.png" alt="button">
+            <img class="lazy imgset2" data-original="images/choujyu2.png" alt="button">
+            <img class="lazy imgset3" data-original="images/choujyu3.png" alt="button">
+            <img class="lazy imgset4" data-original="images/choujyu4.png" alt="button">
           </div>
         </div>
         <div class="right">
@@ -253,7 +254,7 @@
       <div id="gfds">
         <div class="left">
           <div id="gfds_imgwrap">
-            <img src="images/flier1.png" alt="button" class="imgset1">
+            <img class="lazy imgset1" data-original="images/flier1.png" alt="button">
           </div>
         </div>
         <div class="right">
@@ -266,7 +267,7 @@
       <div id="neng">
         <div class="left">
           <div id="neng_imgwrap">
-            <img src="images/nennga1.png" alt="button" class="imgset1">
+            <img class="lazy imgset1" data-original="images/nennga1.png" alt="button">
           </div>
         </div>
         <div class="right">
@@ -282,10 +283,10 @@
       <div id="csta">
         <div class="left">
           <div id="csta_imgwrap">
-            <img src="images/cstphoto1.png" alt="button" class="imgset1">
-            <img src="images/cstphoto2.png" alt="button" class="imgset2">
-            <img src="images/cstphoto4.png" alt="button" class="imgset4">
-            <img src="images/cstphoto3.png" alt="button" class="imgset3">
+            <img class="lazy imgset1" data-original="images/cstphoto1.png" alt="button">
+            <img class="lazy imgset2" data-original="images/cstphoto2.png" alt="button">
+            <img class="lazy imgset4" data-original="images/cstphoto4.png" alt="button">
+            <img class="lazy imgset3" data-original="images/cstphoto3.png" alt="button">
           </div>
         </div>
         <div class="right">
