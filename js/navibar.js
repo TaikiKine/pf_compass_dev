@@ -15,7 +15,7 @@ $(function() {
       nav.fadeIn("fast");
       //nav.addClass('fixed')
     } else if (winTop <= uNavTop) {
-      nav.fadeOut("fast");
+      nav.adeOut("fast");
       //nav.removeClass('fixed')
     }
   });
