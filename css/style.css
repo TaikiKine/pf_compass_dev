@@ -2,7 +2,9 @@
 body {
   background-color: #ecf0f2;
   color: #2980b9;
-  font-family: "UD新ゴNT","ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: UD新ゴNT H, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
   background-repeat: no-repeat;
 }
 
@@ -18,20 +20,31 @@ a:hover {
 }
 
 h1 {
+  font-family: UD新ゴNT H, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 36px;
+  font-weight: bold;
 }
 #profile h1 {
+  font-family: UD新ゴNT H, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 73px;
   font-weight: bold;
 }
 .lfooter h1 {
+  font-family: UD新ゴNT DB, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #ecf0f2;
 }
+.heading h1 {
+  font-family: UD新ゴNT H, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 140px;
+  font-weight: bold;
+}
 
 h2 {
+  font-family: UD新ゴNT H, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 24px;
+  font-weight: bold;
 }
 #profile h2 {
   font-weight: bold;
@@ -41,7 +54,9 @@ h2 {
 }
 
 h3 {
+  font-family: UD新ゴNT H, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 16px;
+  font-weight: bold;
 }
 #profile h3 {
   font-weight: bold;
@@ -59,7 +74,9 @@ h3 {
 }
 
 h4 {
+  font-family: UD新ゴNT B, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 14px;
+  font-weight: bold;
 }
 #profile h4 {
   font-weight: bold;
@@ -72,7 +89,9 @@ h4 {
 }
 
 h5 {
+  font-family: UD新ゴNT DB, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 14px;
+  font-weight: bold;
 }
 #profile h5 {
   font-weight: lighter;
@@ -195,33 +214,35 @@ h5 {
 }
 
 .heading {
-  margin: 185px 0px 185px 0px;
+  margin: 172px 0px 171px 0px;
   width: 1200px;
-  height: 185px;
+  height: 210px;
   background-position: center left;
   border-bottom: solid 20px #2980b9;
 }
 
-#head_profile {
-  background-image: url(../images/profile.png);
-}
-#head_installation {
-  background-image: url(../images/installation.png);
-}
-#head_softwere {
-  background-image: url(../images/softwere.png);
-}
-#head_web {
-  background-image: url(../images/web.png);
-}
-#head_exhibition {
-  background-image: url(../images/exhibition.png);
-}
-#head_graphic {
-  background-image: url(../images/graphic.png);
-}
-#head_other {
-  background-image: url(../images/other.png);
+#head {
+  /* &_profile{
+  	background-image: url(../images/profile.png);
+  }
+  &_installation{
+  	background-image: url(../images/installation.png);
+  }
+  &_softwere{
+  	background-image: url(../images/softwere.png);
+  }
+  &_web{
+  	background-image: url(../images/web.png);
+  }
+  &_exhibition{
+  	background-image: url(../images/exhibition.png);
+  }
+  &_graphic{
+  	background-image: url(../images/graphic.png);
+  }
+  &_other{
+  	background-image: url(../images/other.png);
+  } */
 }
 
 .contents {
@@ -314,12 +335,14 @@ td {
 }
 
 .exh4 {
+  font-family: UD新ゴNT B, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 14px;
   font-weight: bold;
   text-align: right;
 }
 
 .exh5 {
+  font-family: UD新ゴNT DB, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 14px;
   font-weight: lighter;
   padding-left: 10px;
@@ -678,6 +701,9 @@ td {
 }
 
 .footerlink {
+  font-family: UD新ゴNT M, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
   padding-top: 5px;
   line-height: 35px;
 }

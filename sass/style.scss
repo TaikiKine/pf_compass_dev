@@ -6,11 +6,17 @@ $blue: rgb(41, 128, 185);
 $gray: rgb(236, 240, 242);
 $bgray: rgb(201, 201, 201);
 $imgPATH: "../images/";
+@mixin fontSet($fFam: H, $fSize: 36px, $fWgt: bold){
+	font-family: UD新ゴNT $fFam, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: $fSize;
+	font-weight: $fWgt;
+}
 //test
 body {
 	background-color: $gray;
 	color: $blue;
-	font-family: "UD新ゴNT","ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	//font-family: UD新ゴNT H, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	@include fontSet;
 	background-repeat: no-repeat;
 }
 a{
@@ -18,19 +24,20 @@ a{
 	@include link-colors($gray, $bgray);
 }
 h1{
-	font-size: 36px;
+	@include fontSet;
 	#profile & {
-		font-size: 73px;
-		font-weight: bold;
+		@include fontSet(H, 73px, bold);
 	}
 	.lfooter & {
-		font-size: 24px;
-		font-weight: bold;
+		@include fontSet(DB, 24px, bold);
 		color: $gray;
+	}
+	.heading & {
+		@include fontSet(H, 140px, bold);
 	}
 }
 h2{
-	font-size: 24px;
+	@include fontSet(H, 24px, bold);
 	#profile & {
 		font-weight: bold;
 	}
@@ -39,7 +46,7 @@ h2{
 	}
 }
 h3{
-	font-size: 16px;
+	@include fontSet(H, 16px, bold);
 	#profile & {
 		font-weight: bold;
 	}
@@ -56,7 +63,7 @@ h3{
 	}
 }
 h4{
-	font-size: 14px;
+	@include fontSet(B, 14px, bold);
 	#profile & {
 		font-weight: bold;
 	}
@@ -68,7 +75,7 @@ h4{
 	}
 }
 h5{
-	font-size: 14px;
+	@include fontSet(DB, 14px, bold);
 	#profile & {
 		font-weight: lighter;
 	}
@@ -182,14 +189,14 @@ h5{
 	}
 }
 .heading{
-	margin: 185px 0px 185px 0px;
+	margin: 172px 0px 171px 0px;
 	width: 1200px;
-	height: 185px;
+	height: 210px;
 	background-position: center left;
 	border-bottom: solid 20px $blue;
 }
 #head{
-	&_profile{
+	/* &_profile{
 		background-image: url(#{$imgPATH}profile.png);
 	}
 	&_installation{
@@ -209,7 +216,7 @@ h5{
 	}
 	&_other{
 		background-image: url(#{$imgPATH}other.png);
-	}
+	} */
 }
 .contents{
 	margin: 0 auto;
@@ -291,13 +298,11 @@ td{
 	padding-top: 5px;
 }
 .exh4{
-	font-size: 14px;
-	font-weight: bold;
+	@include fontSet(B, 14px, bold);
 	text-align: right;
 }
 .exh5{
-	font-size: 14px;
-	font-weight: lighter;
+	@include fontSet(DB, 14px, lighter);
 	padding-left: 10px;
 }
 
@@ -643,6 +648,7 @@ td{
 	float: left;
 }
 .footerlink{
+	@include fontSet(M, 24px, bold);
 	padding-top: 5px;
 	line-height: 35px;
 	& img{
