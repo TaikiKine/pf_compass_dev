@@ -32,6 +32,10 @@ a{
 }
 h1{
 	@include fontSet;
+	#top & {
+		position: absolute;
+		@include fontSet(H, 148px, bold);
+	}
 	#profile & {
 		@include fontSet(DB, 73px, bold);
 	}
@@ -107,7 +111,7 @@ h5{
 	padding: 55px 40px 0px 40px;
 }
 #top{
-	/* margin-left: 40px; */
+	position: relative;
 	width: 1200px;
 	height: 705px;
 	background-image: url(#{$imgPATH}topfont.png);
