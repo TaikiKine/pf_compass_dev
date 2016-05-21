@@ -646,6 +646,7 @@ td{
 	float: left;
 }
 .homefooter{
+	@include fontSet(H, 31px, bold);
 	width: 291px;
 	height: auto;
 	margin-right: 191px;

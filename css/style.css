@@ -700,6 +700,9 @@ td {
 }
 
 .homefooter {
+  font-family: UD新ゴNT H, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 31px;
+  font-weight: bold;
   width: 291px;
   height: auto;
   margin-right: 191px;
