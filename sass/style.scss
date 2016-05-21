@@ -122,7 +122,6 @@ h5{
 	margin: 0 auto;
 	width: 1200px;
 	height: 100px;
-	//font-size: 85%;
 	background: rgb(41, 128, 185);
 	li{
 		list-style: none;
@@ -131,20 +130,15 @@ h5{
 		float: right;
 		&:first-child{
 			width: auto;
-			//height: 50px;
-			/* padding: 25px 5px; */
-			//margin: 9px 0px 0px 0px;
 			float: left;
 			transition: 0.5s;
-			&:hover{
-				opacity: 0.5
-			}
 		}
 		a{
+			line-height: 100px;
 			@include fontSet(H, 60px, bold);
+			@include link-colors($gray, rgba(236, 240, 242, 0.5));
 			text-decoration: none;
-			color: $gray;
-			//display: block;
+			display:inline;
 			img{
 				width: 60px;
 				height: 100px;

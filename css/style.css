@@ -154,19 +154,20 @@ h5 {
 }
 .navi li:first-child {
   width: auto;
-  /* padding: 25px 5px; */
   float: left;
   transition: 0.5s;
 }
-.navi li:first-child:hover {
-  opacity: 0.5;
-}
 .navi li a {
+  line-height: 100px;
   font-family: UD新ゴNT H, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 60px;
   font-weight: bold;
-  text-decoration: none;
   color: #ecf0f2;
+  text-decoration: none;
+  display: inline;
+}
+.navi li a:hover {
+  color: rgba(236, 240, 242, 0.5);
 }
 .navi li a img {
   width: 60px;
