@@ -25,7 +25,7 @@ h1 {
   font-weight: bold;
 }
 #profile h1 {
-  font-family: UD新ゴNT H, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: UD新ゴNT DB, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 73px;
   font-weight: bold;
 }
@@ -144,7 +144,6 @@ h5 {
   margin: 0 auto;
   width: 1200px;
   height: 100px;
-  font-size: 85%;
   background: #2980b9;
 }
 .navi li {
@@ -155,9 +154,7 @@ h5 {
 }
 .navi li:first-child {
   width: auto;
-  height: 50px;
   /* padding: 25px 5px; */
-  margin: 25px 0px 0px 5px;
   float: left;
   transition: 0.5s;
 }
@@ -165,9 +162,11 @@ h5 {
   opacity: 0.5;
 }
 .navi li a {
+  font-family: UD新ゴNT H, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
   text-decoration: none;
   color: #ecf0f2;
-  display: block;
 }
 .navi li a img {
   width: 60px;

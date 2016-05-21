@@ -11,7 +11,6 @@ $imgPATH: "../images/";
 	font-size: $fSize;
 	font-weight: $fWgt;
 }
-//test
 body {
 	background-color: $gray;
 	color: $blue;
@@ -26,7 +25,7 @@ a{
 h1{
 	@include fontSet;
 	#profile & {
-		@include fontSet(H, 73px, bold);
+		@include fontSet(DB, 73px, bold);
 	}
 	.lfooter & {
 		@include fontSet(DB, 24px, bold);
@@ -123,7 +122,7 @@ h5{
 	margin: 0 auto;
 	width: 1200px;
 	height: 100px;
-	font-size: 85%;
+	//font-size: 85%;
 	background: rgb(41, 128, 185);
 	li{
 		list-style: none;
@@ -132,9 +131,9 @@ h5{
 		float: right;
 		&:first-child{
 			width: auto;
-			height: 50px;
+			//height: 50px;
 			/* padding: 25px 5px; */
-			margin: 25px 0px 0px 5px;
+			//margin: 9px 0px 0px 0px;
 			float: left;
 			transition: 0.5s;
 			&:hover{
@@ -142,9 +141,10 @@ h5{
 			}
 		}
 		a{
+			@include fontSet(H, 60px, bold);
 			text-decoration: none;
 			color: $gray;
-			display: block;
+			//display: block;
 			img{
 				width: 60px;
 				height: 100px;
