@@ -11,6 +11,14 @@ $imgPATH: "../images/";
 	font-size: $fSize;
 	font-weight: $fWgt;
 }
+@mixin link-opacity {
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
 body {
 	background-color: $gray;
 	color: $blue;
@@ -131,14 +139,17 @@ h5{
 		&:first-child{
 			width: auto;
 			float: left;
-			transition: 0.5s;
+			//transition: 0.5s;
+			a{
+				display: inline;
+				line-height: 100px;
+				@include fontSet(H, 60px, bold);
+				@include link-opacity;
+				@include link-colors($gray, rgba(236, 240, 242, 0.5));
+			}
 		}
 		a{
-			line-height: 100px;
-			@include fontSet(H, 60px, bold);
-			@include link-colors($gray, rgba(236, 240, 242, 0.5));
-			text-decoration: none;
-			display:inline;
+			display:block;
 			img{
 				width: 60px;
 				height: 100px;
