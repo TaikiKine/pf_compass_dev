@@ -32,10 +32,6 @@ a{
 }
 h1{
 	@include fontSet;
-	#top & {
-		position: absolute;
-		@include fontSet(H, 148px, bold);
-	}
 	#profile & {
 		@include fontSet(DB, 73px, bold);
 	}
@@ -113,14 +109,20 @@ h5{
 #top{
 	position: relative;
 	width: 1200px;
-	height: 705px;
-	background-image: url(#{$imgPATH}topfont.png);
+	height: 735px;
+	//background-image: url(#{$imgPATH}topfont.png);
 	background-size: 1200px auto;
 	background-repeat: no-repeat;
 	background-position: top;
+	span{
+		width: 1200px;
+		height: 150px;
+		position: absolute;
+		@include fontSet(H, 149px, bold);
+	}
 }
 #gNavi{
-	padding-top: 90px;
+	padding-top: 120px;
 	width: 1200px;
 	li{
 		list-style:none;
